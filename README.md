@@ -25,20 +25,20 @@ Une app web pour gerer ses notes personnelles. On peut se connecter, creer des n
 
 ### Backend
 
-cd backend
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate:fresh --seed
-php artisan serve
+cd backend //
+composer install //
+cp .env.example .env //
+php artisan key:generate//
+php artisan migrate:fresh --seed //
+php artisan serve //
 
 Le backend tourne sur http://127.0.0.1:8000
 
 ### Frontend
 
-cd frontend
-npm install
-npx vite --host
+cd frontend //
+npm install //
+npx vite --host //
 
 Le frontend tourne sur http://localhost:5173
 
